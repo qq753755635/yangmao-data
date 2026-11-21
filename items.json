@@ -1,6 +1,6 @@
 {
   "site": "AI羊毛线报",
-  "updated": "2026-11-21",
+  "updated": "2026-11-22",
   "cats": [
     {
       "slug": "api",
@@ -28,6 +28,19 @@
     }
   ],
   "items": [
+    {
+      "id": "test-delete-me",
+      "cat": "tools",
+      "time": "11-22 00:09",
+      "hot": 90,
+      "badge": "最新",
+      "title": "测试条目 Test Delete Me",
+      "quota": "测试",
+      "deadline": "测试",
+      "cond": "测试",
+      "steps": "测试",
+      "url": "https://example.com"
+    },
     {
       "id": "inception-mercury2",
       "cat": "api",
