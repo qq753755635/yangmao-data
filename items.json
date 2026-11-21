@@ -29,6 +29,20 @@
   ],
   "items": [
     {
+      "id": "amazon-quick-free",
+      "cat": "tools",
+      "time": "11-22 00:26",
+      "hot": 88,
+      "badge": "最新",
+      "status": "可领 · 已实测开通",
+      "title": "Amazon Quick 免费档：亚马逊官方办公 AI 助手（文档/PPT/表格/研究）",
+      "quota": "免费档 US$0/月；官方未标注每月小时数，用量按月重置",
+      "deadline": "长期免费档",
+      "cond": "有亚马逊/AWS 账号即可，不用绑卡",
+      "steps": "官网点「免费试用 Quick」用亚马逊账号登录，套餐选 Free 档；也可下载 Windows/Mac 客户端登录使用",
+      "url": "https://aws.amazon.com/cn/quick"
+    },
+    {
       "id": "inception-mercury2",
       "cat": "api",
       "time": "11-21 11:11",
