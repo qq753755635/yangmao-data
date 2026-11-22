@@ -29,6 +29,45 @@
   ],
   "items": [
     {
+      "id": "lightning-ai-free",
+      "cat": "gpu",
+      "time": "11-22 11:11",
+      "hot": 90,
+      "badge": "最新",
+      "title": "Lightning AI 免费档：约 50 小时免费 GPU + 1 个免费 Studio 24/7",
+      "quota": "注册送 5 积分，绑卡再得 25 积分，合计最多 30 积分≈50 小时 GPU（中断式实例）；另有 1 个免费 CPU Studio 24/7（每 4 小时重启一次）；50GB 持久存储",
+      "deadline": "免费积分 12 个月内有效；免费 Studio 常驻",
+      "cond": "邮箱注册即可，不绑卡可拿 5 积分；要拿满 30 积分需绑卡；需手机号防滥用验证",
+      "steps": "注册 Lightning AI → 免费档直接开 Studio 选 GPU（T4 / L4 / A100 / H100 等）→ 积分用完按量付费，记得先设预算",
+      "url": "https://lightning.ai/pricing"
+    },
+    {
+      "id": "google-cloud-free",
+      "cat": "server",
+      "time": "11-22 11:11",
+      "hot": 89,
+      "badge": "最新",
+      "title": "Google Cloud 新客 $300 额度 + 永久免费 e2-micro 小鸡",
+      "quota": "$300 新客额度（90 天）；另有 20+ 永久免费产品：每月 1 台 e2-micro 实例、Cloud Run 每月 200 万次请求、5GB 存储、BigQuery 每月 1TB 查询",
+      "deadline": "$300 额度 90 天；免费层额度长期有效",
+      "cond": "新客专享；需绑卡验证，不升级付费账号不扣费；⚠️ 试用期内不能给虚拟机挂 GPU",
+      "steps": "注册 Google Cloud → 领 $300 额度 → 免费层里开 e2-micro（美国俄勒冈 / 爱荷华 / 南卡区域）",
+      "url": "https://cloud.google.com/free"
+    },
+    {
+      "id": "aliyun-double11-2026",
+      "cat": "server",
+      "time": "11-22 11:11",
+      "hot": 86,
+      "badge": "即将结束",
+      "title": "阿里云双 11：ECS 99 元/年续费同价锁到 2029，轻量 38 元/年秒杀",
+      "quota": "ECS 经济型 e 实例 2核2G/3M/40G：99 元/年，新老同享，每主体限 1 台，续费同价锁价至 2029-03-31；轻量 2核2G/40G/200M：38 元/年秒杀（每天 10:00、15:00 放量，仅新用户），抢不到有 68 元/年兜底款",
+      "deadline": "2026-11-30 23:59:59 大促结束",
+      "cond": "需阿里云实名；38 元轻量仅无付费记录新用户、限购 1 台，次年恢复原价约 459 元/年；99 元 e 实例与 199 元 u1 实例同主体只能保有 1 台；底价款不支持代金券",
+      "steps": "登录阿里云 → 进双 11 会场 → 选 ECS 99 计划或轻量秒杀场次下单",
+      "url": "https://t.aliyun.com/U/3S7g58"
+    },
+    {
       "id": "amazon-quick-free",
       "cat": "tools",
       "time": "11-22 00:26",
