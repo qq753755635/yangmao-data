@@ -1,6 +1,6 @@
 {
   "site": "AI羊毛线报",
-  "updated": "2026-11-22",
+  "updated": "2026-11-23",
   "cats": [
     {
       "slug": "api",
@@ -28,6 +28,71 @@
     }
   ],
   "items": [
+    {
+      "id": "devin-swe2-flash",
+      "cat": "tools",
+      "time": "11-23 11:23",
+      "hot": 88,
+      "badge": "即将结束",
+      "title": "Devin SWE-2 Flash 免费到 11 月 30 日",
+      "quota": "Cognition 新模型 SWE-2 Flash 在 Devin 桌面端与 CLI 里免费使用，官方未公布额度数字",
+      "deadline": "2026-11-30 免费截止",
+      "cond": "不用绑卡；需 Devin 账号",
+      "steps": "打开 Devin Desktop 或 CLI → 直接使用 SWE-2 Flash 模型",
+      "url": "https://cognition.ai/blog/swe-2-flash"
+    },
+    {
+      "id": "xfyun-spark-x2-6",
+      "cat": "api",
+      "time": "11-23 11:23",
+      "hot": 95,
+      "badge": "最新",
+      "title": "讯飞星火 X2.6 新老用户领 10 亿 Token 免费额度",
+      "quota": "10 亿 Token，仅限 Spark-X2.6 一个模型调用；1M 上下文",
+      "deadline": "领取后 31 天内有效（入口下架时间官网未标）",
+      "cond": "需手机号注册 + 实名认证，每人限领一次；⚠️ 领取页有「额度用完自动按量计费」勾选框，只想白嫖不要勾",
+      "steps": "打开讯飞星辰 MaaS 首页 → 常用功能里「零门槛领取 10 亿 tokens」→ 建 API Key，接口 maas-api.cn-huabei-1.xf-yun.com/v2，模型 spark-x2.6",
+      "url": "https://maas.xfyun.cn/overview"
+    },
+    {
+      "id": "sensenova-token-plan",
+      "cat": "api",
+      "time": "11-23 11:23",
+      "hot": 90,
+      "badge": "最新",
+      "title": "商汤 SenseNova Token Plan 公测 ¥0/月",
+      "quota": "公测期免费：SenseNova 6.8 Flash Lite 与 U1 Fast 两个模型，最多 20 个 API Key；官方页面未公布具体积分上限（仅写「慷慨额度」）",
+      "deadline": "公测期免费，结束时间未公布（页面标「限时放量」），付费档即将上线",
+      "cond": "注册即用，不绑卡；国内站 token.sensenova.cn/v1，国际站 token.sensenova.ai，Key 与模型名不可串区",
+      "steps": "打开 Token Plan 页开通免费档 → 控制台建 API Key → 按 OpenAI 兼容格式调用 sensenova-6.8-flash-lite",
+      "url": "https://www.sensenova.cn/token-plan"
+    },
+    {
+      "id": "qoder-daily-credits",
+      "cat": "tools",
+      "time": "11-23 11:23",
+      "hot": 85,
+      "badge": "最新",
+      "title": "Qoder 每天领 100 Credits + 新人 300 Credits 与 2 周试用",
+      "quota": "个人用户每天在桌面端领 100 Credits（每笔 30 天有效）；新注册另得 2 周专业版试用 + 300 Credits",
+      "deadline": "每日领取结束时间另行公告",
+      "cond": "Qoder CN 个人用户可领（体验版也可），企业订阅用户不适用；不绑卡",
+      "steps": "装 Qoder CN 桌面端 → 左下角用量面板点礼物图标每天手动领 100 Credits；新用户注册即得 300 Credits 与 2 周试用",
+      "url": "https://qoder.com/activities"
+    },
+    {
+      "id": "codebuddy-free",
+      "cat": "tools",
+      "time": "11-23 11:23",
+      "hot": 80,
+      "badge": "最新",
+      "title": "腾讯 CodeBuddy 体验版每月 500 积分免费",
+      "quota": "体验版每月 500 基础积分 + 每月 5000 次代码补全（当前限时不限次补全，随时可能回落）",
+      "deadline": "长期免费档（限免放宽项未写截止日）",
+      "cond": "手机号或微信登录即可，不绑卡；积分按月发放、当月有效不累积；与 WorkBuddy 同账号积分共享",
+      "steps": "打开 codebuddy.cn → 手机号/微信登录即进体验版 → IDE 插件或桌面端使用",
+      "url": "https://www.codebuddy.cn/"
+    },
     {
       "id": "lightning-ai-free",
       "cat": "gpu",
