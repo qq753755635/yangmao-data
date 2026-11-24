@@ -1,6 +1,6 @@
 {
   "site": "AI羊毛线报",
-  "updated": "2026-11-23",
+  "updated": "2026-11-24",
   "cats": [
     {
       "slug": "api",
@@ -28,6 +28,32 @@
     }
   ],
   "items": [
+    {
+      "id": "ovh-black-friday-2026",
+      "cat": "server",
+      "time": "11-24 11:25",
+      "hot": 88,
+      "badge": "最新",
+      "title": "OVHcloud 美国站黑五：首个 Public Cloud 项目送 $200，再购数据库服务加 $100",
+      "quota": "最高 $300 Public Cloud 额度：首个 Public Cloud 基础设施项目送 $200，再购首个 Managed Databases 服务加 $100；额度到账后 90 天有效",
+      "deadline": "黑五窗口至 2026-12-01 15:00 ET；额度到账后 90 天内用完",
+      "cond": "仅限此前未买过 Public Cloud 服务的客户；须至少消费 $0.99，额度在收到 $0.99 后 30 天内到账；须绑支付方式，额度用完按标准价计费；仅限美国数据中心。注意：已有 OVH 账号之前 FREETRIAL 显示 Not eligible 是另一活动",
+      "steps": "登录 OVHcloud 美国站 → 创建首个 Public Cloud 基础设施项目 → 消费满 $0.99 → 等额度到账（30 天内）",
+      "url": "https://us.ovhcloud.com/deals/"
+    },
+    {
+      "id": "anyscale-100-credit",
+      "cat": "gpu",
+      "time": "11-24 11:25",
+      "hot": 85,
+      "badge": "最新",
+      "title": "Anyscale 新账号送 $100 额度，能跑 T4/L4/A100",
+      "quota": "新账号 $100 Anyscale Credits；Hosted 算力按分钟计费：CPU 约 $0.0025/小时、T4 约 $0.1052/小时、L4 约 $0.1767/小时、A10G 约 $0.2525/小时、A100 约 $0.9184/小时；H100/B200 等需联系销售",
+      "deadline": "官网定价页未写明有效期",
+      "cond": "新账号可领，个人/企业未在页面上区分；⚠️ 官网未写明开通是否需要绑卡、也未写明额度有效期，领前先确认",
+      "steps": "打开 anyscale.com/pricing → 注册免费账号领 $100 额度 → 按量跑 Ray 算力任务",
+      "url": "https://www.anyscale.com/pricing"
+    },
     {
       "id": "devin-swe2-flash",
       "cat": "tools",
