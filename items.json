@@ -1,6 +1,6 @@
 {
   "site": "AI羊毛线报",
-  "updated": "2026-11-24",
+  "updated": "2026-11-25",
   "cats": [
     {
       "slug": "api",
@@ -28,6 +28,58 @@
     }
   ],
   "items": [
+    {
+      "id": "mimo-tts-free",
+      "cat": "api",
+      "time": "11-25 11:30",
+      "hot": 92,
+      "badge": "最新",
+      "title": "小米 MiMo TTS 三款语音模型限时免费：预置音色/音色设计/音色复刻",
+      "quota": "mimo-v2.5-tts、mimo-v2.5-tts-voicedesign、mimo-v2.5-tts-voiceclone 三款全部限时免费；支持预置音色、按描述设计新声音、用小段录音复刻声音；缓存写入也限时免费",
+      "deadline": "限时免费，官方价格页未公布结束时间",
+      "cond": "小米账号登录开放平台即可，不绑卡；按量 Key（sk-）调用；官方文档另有限速（每型号每分钟约 100 次请求），批量合成注意排队；⚠️ 结束时间未公布，别把长期流程押在上面；合成声音商用授权以官方协议为准",
+      "steps": "登录 platform.xiaomimimo.com → 控制台建 API Key（sk-）→ 按官方文档调 mimo-v2.5-tts 等模型",
+      "url": "https://platform.xiaomimimo.com/docs/zh-CN/price/pay-as-you-go"
+    },
+    {
+      "id": "token-harbor-free",
+      "cat": "api",
+      "time": "11-25 11:30",
+      "hot": 88,
+      "badge": "最新",
+      "title": "Token Harbor 免费额度：DeepSeek V4.1 Flash 与 MiMo V2.6 Flash 每周免费调",
+      "quota": "免费档每周滚动额度：DeepSeek V4.1 Flash（deepseek-v4.1-flash:free）与 MiMo V2.6 Flash（mimo-v2.6-flash:free），OpenAI 兼容接口；免费账号限速 60 请求/分钟、1800 请求/小时",
+      "deadline": "常驻免费档（免费模型阵容会轮换，以官网 Models 页为准）",
+      "cond": "邮箱注册即可，不绑卡；⚠️ 免费额度具体大小官方未公布；免费线路提示词可能被留存用于诊断改进，别传敏感内容",
+      "steps": "注册 tokenharbor.ai → 免费档建 API Key → OpenAI 兼容接口调 deepseek-v4.1-flash:free",
+      "url": "https://tokenharbor.ai/"
+    },
+    {
+      "id": "vultr-free-tier",
+      "cat": "server",
+      "time": "11-25 11:30",
+      "hot": 82,
+      "badge": "最新",
+      "title": "Vultr 免费档小鸡：1核512M/10G/IPv4 免费 1 年（申请后抽选）",
+      "quota": "获批后免费实例 1 台：1 vCPU / 512MB 内存 / 10GB SSD / IPv4，账户每月 2TB 出站流量池；免费期 1 年（据获批用户实测）",
+      "deadline": "Early Access 申请长期开放，无固定截止日",
+      "cond": "任何人可申请，但名额有限、按加权评分随机抽选，不保证获批；仅限迈阿密/西雅图/法兰克福三个机房；⚠️ 申请时须填用途信息防机器人；1 年后转约 $5/月（据用户实测口径，以官网为准）",
+      "steps": "注册 Vultr → 账号页 Free Tier Program 申请 Early Access → 获批邮件通知后在部署页选 Cloud Compute > Regular > Free Instance",
+      "url": "https://www.vultr.com/free-tier-program/"
+    },
+    {
+      "id": "elevenlabs-free",
+      "cat": "tools",
+      "time": "11-25 11:30",
+      "hot": 80,
+      "badge": "最新",
+      "title": "ElevenLabs 免费档：每月 1 万额度，TTS/配音/音效/音乐都能试",
+      "quota": "每月 10,000 credits（约 10 分钟语音），TTS、STT、音效、音色设计、音乐、图片与 3 个 Studio 项目共用额度，每月重置不结转",
+      "deadline": "长期免费档",
+      "cond": "邮箱注册即可；⚠️ 免费档无商用许可（商用从 $6/月 Starter 起），只能个人非商业试用；官网定价页未说明免费档是否需要绑卡，领前先确认",
+      "steps": "打开 elevenlabs.io/pricing → 注册选 Free 档 → 网页或 API 试用各产品",
+      "url": "https://elevenlabs.io/pricing"
+    },
     {
       "id": "ovh-black-friday-2026",
       "cat": "server",
