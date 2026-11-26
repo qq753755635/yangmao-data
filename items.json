@@ -1,6 +1,6 @@
 {
   "site": "AI羊毛线报",
-  "updated": "2026-11-25",
+  "updated": "2026-11-26",
   "cats": [
     {
       "slug": "api",
@@ -28,6 +28,97 @@
     }
   ],
   "items": [
+    {
+      "id": "articul8-bivia",
+      "cat": "api",
+      "time": "11-26 11:11",
+      "hot": 90,
+      "badge": "最新",
+      "title": "Articul8 Bivia 决策模型：前 1 万名新用户送 10 亿 Token，不绑卡",
+      "quota": "前 10,000 名早期用户送 10 亿免费 Token（仅输入 Token 计费，输出不产生 Token）；Bivia 是决策模型（返回结构化判断+置信度），不是聊天模型，适合分类、路由、抽取等 Agent 决策场景",
+      "deadline": "名额先到先得（前 1 万名），官方未公布结束时间；第三方实测仪表盘显示额度有效期 90 天",
+      "cond": "注册 Articul8 账号即可，不绑卡、无订阅；⚠️ 结账页若显示 $10 说明免费名额已满，别付款；免费额度有效期以账号内显示为准",
+      "steps": "打开 articul8.ai/bivia → 点 Claim yours 注册 → 创建 API Key → 按官方文档调 https://api.articul8.ai/bivia",
+      "url": "https://articul8.ai/bivia"
+    },
+    {
+      "id": "heygen-voice-turbo-free",
+      "cat": "api",
+      "time": "11-26 11:11",
+      "hot": 88,
+      "badge": "即将结束",
+      "title": "HeyGen Voice Turbo Free：排名第一的 TTS 模型限时免费到 11 月 30 日",
+      "quota": "heygen-voice-1-turbo-free 模型 $0/百万字符，支持公开音色与即时克隆音色，39 种语言；不消耗余额",
+      "deadline": "2026-11-30 免费截止",
+      "cond": "注册 HeyGen 账号建 API Key 即可，不绑卡、不用充值；⚠️ 共享容量，忙时可能返回 429，无可用性/延迟保证；专业克隆音色不可用",
+      "steps": "注册 HeyGen → API Keys 页建 Key → 调 POST /v3/models/audio/tts，model 设为 heygen-voice-1-turbo-free",
+      "url": "https://www.heygen.com/blog/heygen-voice-turbo"
+    },
+    {
+      "id": "fish-audio-s2-1-pro-free",
+      "cat": "api",
+      "time": "11-26 11:11",
+      "hot": 86,
+      "badge": "即将结束",
+      "title": "Fish Audio S2.1 Pro 免费 TTS API：83 种语言、无硬性用量上限，到 11 月 30 日",
+      "quota": "模型 s2.1-pro-free，$0/百万 UTF-8 字节，83 种语言，含语音克隆；无硬性字符上限（公平使用政策约束）",
+      "deadline": "免费至 2026-11-30，官方称会提前通知变化",
+      "cond": "注册 Fish Audio 账号建 API Key 即可，不绑卡；⚠️ 无 SLA、无延迟保证，免费请求可能被留存用于模型改进；年收入超 $100 万的商业场景先联系官方",
+      "steps": "注册 fish.audio → 建 API Key → 调 https://api.fish.audio/v1/tts，model 设为 s2.1-pro-free",
+      "url": "https://fish.audio/blog/s2-1-pro-free-api/"
+    },
+    {
+      "id": "novita-sandbox-100",
+      "cat": "server",
+      "time": "11-26 11:11",
+      "hot": 84,
+      "badge": "最新",
+      "title": "Novita AI 新用户送 $100 沙箱额度：Agent 沙箱免费用，不绑卡",
+      "quota": "新用户完成开户问卷得 $100 推广额度（仅限 Agent Sandbox 的 CPU/内存/存储用量）；免费档另有 5 个并发沙箱（2核4G、单次 1 小时）、60GB 持久存储",
+      "deadline": "额度有效期 90 天（注册页口径）",
+      "cond": "新用户注册 + 完成开户问卷即可，不绑卡；⚠️ 额度只抵沙箱用量，不抵模型 API 调用；沙箱内模型调用另行计费",
+      "steps": "注册 Novita AI → 完成开户问卷领 $100 额度 → 按 docs.novita.ai 沙箱文档创建 Agent Sandbox",
+      "url": "https://docs.novita.ai/guides/sandbox-pricing"
+    },
+    {
+      "id": "perch-ai-starter",
+      "cat": "tools",
+      "time": "11-26 11:11",
+      "hot": 82,
+      "badge": "最新",
+      "title": "Perch AI Starter 免费：每月 $20 托管模型用量，编程助手免费用",
+      "quota": "每月 20,000 PT（≈$20）托管模型用量，每月刷新；网页/桌面/CLI 同一账号；免费模型轮换，当前含 DeepSeek V4.1 Flash、GLM 5.3 Flash、Laguna S 2.1",
+      "deadline": "长期免费档（模型阵容会轮换）",
+      "cond": "注册即可，不绑卡；⚠️ 无直接 API 访问（只能在 Perch 自家客户端里用）；数据计划默认开启（可去设置里关闭，防训练数据留存）",
+      "steps": "打开 perchai.app 注册 → 选 Starter 免费档 → 在网页/桌面/CLI 里直接用",
+      "url": "https://www.perchai.app/pricing"
+    },
+    {
+      "id": "youcom-search-api",
+      "cat": "tools",
+      "time": "11-26 11:11",
+      "hot": 80,
+      "badge": "最新",
+      "title": "You.com 搜索 API：免 Key 每天 100 次免费搜索，注册再送 $10 额度",
+      "quota": "免 Key MCP 路由每天 100 次网页搜索（无需账号/Key/卡）；注册送 $10 额度（≈2000 次搜索），验证账号再得 $90",
+      "deadline": "注册赠金有效期 60 天；免 Key 每日 100 次长期有效",
+      "cond": "免 Key 路由不用注册不绑卡；注册领额度也不绑卡；⚠️ 免费额度仅限搜索，Contents/Answer/Research 等需另付费",
+      "steps": "免 Key 直接用 https://api.you.com/mcp?profile=free；要额度则注册 you.com 账号领 $10 赠金",
+      "url": "https://you.com/pricing"
+    },
+    {
+      "id": "braintrust-starter",
+      "cat": "tools",
+      "time": "11-26 11:11",
+      "hot": 78,
+      "badge": "最新",
+      "title": "Braintrust Starter 免费：每月 $10 模型额度，AI 评测/追踪平台",
+      "quota": "每月 $10 模型额度（内置模型调用/Playground/Topics 等），另含每月 1GB 处理数据、1 万次评分；无限用户/项目/数据集",
+      "deadline": "长期免费档，额度每月重置不结转",
+      "cond": "注册即可，不绑卡；⚠️ 超出额度后按量计费（须开通按需用量才会扣），只用免费额度不产生费用；这是评测/追踪平台，不是通用聊天 API",
+      "steps": "打开 braintrust.dev 注册 → 选 Starter 免费档 → 在 Playground 或评测流程里用内置模型额度",
+      "url": "https://www.braintrust.dev/pricing"
+    },
     {
       "id": "mimo-tts-free",
       "cat": "api",
@@ -544,7 +635,7 @@
       "badge": "",
       "title": "Nebius AI Builder 批准送 $25 额度 另有 Tavily $25 / Toloka $50",
       "quota": "Token Factory $25 额度 promo 码（欢迎邮件内另有 Tavily $25、Toloka $50）",
-      "deadline": "2027-06-30 前领取 promo",
+      "deadline": "Token Factory $25 额度码 2026-12-31 到期；AI Cloud 领取码 2027-06-30 前领取",
       "cond": "需申请 AI Builder Program 并获批；领取不用绑卡",
       "steps": "申请 Nebius AI Builder → 获批邮件里拿 promo 码 → 在 Token Factory 兑换",
       "url": "https://nebius.com",
