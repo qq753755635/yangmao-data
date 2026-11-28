@@ -1,6 +1,6 @@
 {
  "site": "AI羊毛线报",
- "updated": "2026-11-27",
+ "updated": "2026-11-28",
  "cats": [
   {
    "slug": "api",
@@ -28,6 +28,71 @@
   }
  ],
  "items": [
+  {
+   "id": "flyio-free-tier",
+   "cat": "server",
+   "time": "11-28 11:11",
+   "hot": 88,
+   "badge": "最新",
+   "title": "Fly.io 免费档回归：每月 $5 用量免费，可跑应用/托管 Postgres",
+   "quota": "每月 $5 用量免费（按月重置）：最多 3 台 Machine 与 3 个 Sprites、1 个用户；开发者托管 Postgres 也从 $5 里扣；shared-cpu-1x 256MB 约 $2.19/月，$5 够跑 2 台小机",
+   "deadline": "常驻免费档（2026-11-23 新推），以官网为准",
+   "cond": "⚠️ 须绑信用卡验证（仅验证）；超 $5 部分自动转按量付费，记得先设预算/及时停机；不含合作方数据库与扩展",
+   "steps": "打开 fly.io/pricing → 注册选 Free 免费档 → 绑卡验证 → 部署应用或开托管 Postgres",
+   "url": "https://fly.io/pricing"
+  },
+  {
+   "id": "zapier-mcp-free",
+   "cat": "tools",
+   "time": "11-28 11:11",
+   "hot": 82,
+   "badge": "最新",
+   "title": "Zapier MCP 工具调用限时免费到 2027-01-05：AI 直接操作 9000+ 应用",
+   "quota": "到 2027-01-05 美东中午前，MCP 成功工具调用不消耗 Tasks 额度；免费版/试用账号每天最多 250 次成功调用；覆盖 9000+ 应用、3 万+ 动作（Gmail/Slack/日历等）",
+   "deadline": "2027-01-05 美东中午 12:00 截止免费",
+   "cond": "Zapier 账号即可（含免费版），不绑卡；免费期过后每次调用正常扣 2 个 Tasks；仅限 MCP 工具调用，普通 Zap 仍按原规则计费",
+   "steps": "打开 zapier.com/mcp → 注册/登录 Zapier → 把 MCP 接到 Claude/ChatGPT/Cursor → 选应用授权后让 AI 直接操作",
+   "url": "https://zapier.com/mcp"
+  },
+  {
+   "id": "polyai-100-credit",
+   "cat": "api",
+   "time": "11-28 11:11",
+   "hot": 88,
+   "badge": "最新",
+   "title": "PolyAI Dialog-RSN-1 新账号送 $100 额度：语音对话模型，12 月 1 日前注册",
+   "quota": "$100 新账号赠金（原 $20，已上调），账号有效期内不过期；语音输出免费至 12 月 1 日；模型按 $0.02/接通分钟 + 文本 Token（输入 $2/百万、缓存 $0.2/百万、输出 $5/百万）计费",
+   "deadline": "2026-12-01 前注册才有 $100；语音输出免费同日截止",
+   "cond": "注册即领，不绑卡可先用（2 路并发）；加卡后并发提到 10 路；⚠️ 模型目前仅支持英语；电话线路与编排另计；官网定价页本次抓取未直接显示 $100 字样，口径来自官网定价页 11-18 至 11-22 多家复核与 Perq 11-27 验证，领前以注册页显示为准",
+   "steps": "打开 poly.ai/pricing → 点 Try free 进 studio.poly.ai 注册 → 新账号确认 $100 到账 → 按文档调 Dialog-RSN-1 API",
+   "url": "https://poly.ai/pricing"
+  },
+  {
+   "id": "coarena-daily-5",
+   "cat": "api",
+   "time": "11-28 11:11",
+   "hot": 90,
+   "badge": "最新",
+   "title": "Coarena 每天免费模型用量：Claude Fable 5.2 / GPT-6 / Gemini 等 32 个模型免费用",
+   "quota": "免费模型每天免费调（官方口径：免费模型每日免费、Coarena 买单；第三方实测约 $5/天用量），每日 00:00 UTC 重置；32 个模型：Claude Fable 5.2/Opus 5.5、GPT-6.1/6.2 系列、Gemini 4、Grok 4.7、Kimi K3.1 Pro、DeepSeek V4.1 Flash 等；OpenAI 与 Anthropic 双兼容接口",
+   "deadline": "常驻免费档，无截止日（模型阵容会轮换）",
+   "cond": "Google 账号登录建 Key 即可，不绑卡；限速 30 次/分钟、2 并发；⚠️ 这是评测竞技场：提示词与回复会被保留并可能公开，别传敏感内容；额度用完可在面板一键申请提额",
+   "steps": "打开 coarena.ai/docs → API 页用 Google 登录建 Key → base URL 设 https://coarena.ai/api/v1（OpenAI 兼容）或 https://coarena.ai/api（Anthropic 兼容）→ 选模型调用",
+   "url": "https://coarena.ai/docs"
+  },
+  {
+   "id": "autoclaw-week4-100m",
+   "cat": "api",
+   "time": "11-28 11:11",
+   "hot": 92,
+   "badge": "即将结束",
+   "title": "智谱 AutoClaw 本周福利：登录领 1 亿 Token，11 月 29 日 23:59 清零",
+   "quota": "国内版登录领 1 亿 Token（10,000 积分），海外版 5000 万 Token（5,000 积分）；每周福利，每账号限领一次",
+   "deadline": "2026-11-29 23:59（北京时间）统一失效，不结转",
+   "cond": "智谱账号登录客户端即领，不绑卡；⚠️ 领取和失效同一刻：今天领能用约 1.5 天，周日晚上领只剩几小时；国内海外是两套独立账号，各领各的",
+   "steps": "打开 autoclaw.zhipuai.cn（国内）或 autoclaw.z.ai（海外）下载客户端 → 登录账号 → 客户端内领本周福利",
+   "url": "https://autoclaw.z.ai/en/blog/news/M11W4/"
+  },
   {
    "id": "manus-free-300",
    "cat": "tools",
